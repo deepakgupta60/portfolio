@@ -2,7 +2,7 @@ let x = document.getElementById("headerText");
 let img = document.getElementById("image");
 img.addEventListener("mouseenter", (e) => {
   if (screen.width > 700) {
-    x.textContent = "GAJANAN BODHANKAR";
+    x.textContent = "DEEPAK GUPTA";
     x.style.color = "white";
     img.style.cursor = "pointer";
     x.style.transform = "translate(10%)";
@@ -12,7 +12,7 @@ img.addEventListener("mouseenter", (e) => {
 });
 img.addEventListener("mouseout", (e) => {
   if (screen.width > 700) {
-    x.textContent = "GAJANAN BODHANKAR";
+    x.textContent = "DEEPAK GUPTA";
     x.style.transform = "translate(-28%)";
     x.style.animation = "rightToLeft 1s ease-in-out";
     x.style.color = "rgb(42, 40, 40)";
